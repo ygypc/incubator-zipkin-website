@@ -37,7 +37,7 @@ pipeline {
 			steps {
 				sh 'env'
 				sh 'pwd'
-				sh 'ls'
+				sh 'ls -lR'
 				sh 'alias'
 				sh 'git config --list --local'
 				sh 'git config --list --global'
