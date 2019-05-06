@@ -80,9 +80,9 @@ pipeline {
 		}
 
 		stage('Publish') {
-			when {
-				branch 'master'
-			}
+//			when {
+//				branch 'master'
+//			}
 			environment {
 				// GH Personal access token @abesto
 				GITUSER = credentials('2d27b827-20c2-4173-ac84-f3abc308fc88')
